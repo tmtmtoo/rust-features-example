@@ -17,8 +17,8 @@ foo = [ "derive-new" ]
 bar = [ "boolinator" ]
 
 [dependencies]
-derive-new = { version = "0.5.9", default_features = false, optional = true }
-boolinator = { version = "2.4.0", default_features = false, optional = true }
+derive-new = { version = "0.5.9", optional = true }
+boolinator = { version = "2.4.0", optional = true }
 ```
 
 `cargo tree` による依存クレートの表示
@@ -62,8 +62,8 @@ foo = [ "derive-new" ]
 bar = [ "boolinator" ]
 
 [dependencies]
-derive-new = { version = "0.5.9", default_features = false, optional = true }
-boolinator = { version = "2.4.0", default_features = false, optional = true }
+derive-new = { version = "0.5.9", optional = true }
+boolinator = { version = "2.4.0", optional = true }
 ```
 
 `cargo tree` による依存クレートの表示
@@ -101,8 +101,8 @@ foo = [ "derive-new" ]
 bar = [ "boolinator" ]
 
 [dependencies]
-derive-new = { version = "0.5.9", default_features = false, optional = true }
-boolinator = { version = "2.4.0", default_features = false, optional = true }
+derive-new = { version = "0.5.9", optional = true }
+boolinator = { version = "2.4.0", optional = true }
 ```
 
 ```
