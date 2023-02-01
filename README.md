@@ -90,7 +90,7 @@ rust-features-example v0.1.0 (/***/rust-features-example)
 
 `bar` では `foo` で指定しているクレートに依存していない。
 
-## `default` の指定を残したまま無効にするには
+## Workaround: `default` の指定を残したまま無効にするには
 
 `--no-default-features` フラグを `cargo` コマンド実行時に付与する。
 
