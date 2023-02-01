@@ -52,7 +52,7 @@ rust-features-example v0.1.0 (/***/rust-features-example)
         └── unicode-ident v1.0.6
 ```
 
-_`default` で `foo` を指定している場合、`bar` にも、`foo` の依存クレートも依存関係となる。_
+`default` で `foo` を指定している場合、`bar` の場合でも、`foo` の依存クレートが依存関係となる。
 
 ## `default` を指定しない `Cargo.toml`
 
@@ -88,7 +88,7 @@ rust-features-example v0.1.0 (/***/rust-features-example)
 └── boolinator v2.4.0
 ```
 
-_`bar` では `foo` で指定しているクレートに依存していない。_
+`bar` では `foo` で指定しているクレートに依存していない。
 
 ## `default` の指定を残したまま無効にするには
 
